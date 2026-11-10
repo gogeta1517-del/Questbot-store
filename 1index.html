@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Discord Bot Source Code — Product Page</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --text: #e8e9ec;
+    --muted: #9aa0ab;
+    --accent: #5865F2;
+    --border: #2a2e37;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; }
+  header { text-align: center; padding: 40px 0 20px; }
+  header h1 { font-size: 1.9rem; margin-bottom: 6px; }
+  header p.tagline { color: var(--muted); margin-top: 0; }
+  .price-tag {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 8px 20px;
+    border-radius: 999px;
+    margin-top: 10px;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+    margin-top: 20px;
+  }
+  section h2 { font-size: 1.15rem; margin-top: 0; }
+  ul { padding-left: 20px; }
+  .placeholder {
+    background: #3a2a1a;
+    color: #ffcf8c;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.92em;
+  }
+  a { color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 40px; }
+  code { background: #1f232c; padding: 2px 6px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>QuestBot — Discord Bot Source Code</h1>
+    <p class="tagline">The full source code for QuestBot, delivered as a ZIP with setup instructions.</p>
+    <div class="price-tag">₹1,500</div>
+  </header>
+
+  <section>
+    <h2>Product Description</h2>
+    <p>
+      This product is the complete source code for <strong>QuestBot</strong>, a custom Discord bot,
+      delivered as a ZIP file. Buyers receive the full codebase and setup instructions so the
+      bot can be hosted and run under their own Discord application and bot token.
+    </p>
+    <p><span class="placeholder">[Add 3–5 bullet points on what QuestBot actually does — e.g. moderation, quests/leveling, welcome messages, etc.]</span></p>
+    <ul>
+      <li>Feature one — describe it here</li>
+      <li>Feature two — describe it here</li>
+      <li>Feature three — describe it here</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>About the Seller</h2>
+    <p>
+      Sold by <strong>Gogeta</strong>, an independent developer offering Discord bot source
+      code and related development services.
+    </p>
+    <p><span class="placeholder">[Optional: one or two lines about your background / how long you've been building bots / past work]</span></p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      For questions before or after purchase, reach out at:
+      <br><strong>Gogeta1517@gmail.com</strong>
+    </p>
+    <p>Typical response time: <span class="placeholder">[e.g. within 24 hours]</span></p>
+  </section>
+
+  <section>
+    <h2>Digital Delivery Policy</h2>
+    <p>
+      This is a digital product. After payment is confirmed, the QuestBot source code is
+      sent as a ZIP file to the email address used at checkout, within
+      <span class="placeholder">[e.g. 24 hours]</span> of purchase. No physical item is shipped.
+    </p>
+  </section>
+
+  <section>
+    <h2>Refund Policy</h2>
+    <p>
+      Because this is a non-physical, digital product delivered as a downloadable ZIP file,
+      all sales are final once the files have been delivered, except in the following case:
+    </p>
+    <ul>
+      <li>The delivered files are materially different from the product description, and the issue cannot be resolved through reasonable support (e.g. a corrected or re-sent file).</li>
+    </ul>
+    <p>
+      Refund requests must be made within <span class="placeholder">[e.g. 3 days]</span> of purchase by
+      emailing <strong>Gogeta1517@gmail.com</strong> with your order details.
+    </p>
+  </section>
+
+  <section>
+    <h2>Terms and Conditions</h2>
+    <ul>
+      <li>By purchasing, you receive a license to use and modify the QuestBot source code for your own projects. <span class="placeholder">[Specify: personal use only? resale allowed? attribution required?]</span></li>
+      <li>The source code is provided "as is," without warranty of uninterrupted or error-free operation.</li>
+      <li>The seller is not responsible for any Discord Terms of Service violations resulting from how the buyer configures or uses the bot.</li>
+      <li>Redistribution or resale of the unmodified source code without permission is not allowed.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Privacy Policy</h2>
+    <p>
+      We collect only the information needed to process your order and deliver the product —
+      typically your email address and payment confirmation details, handled via our
+      payment processor. We do not sell or share your personal information with third parties,
+      other than as required to process payment and delivery.
+    </p>
+    <p>
+      For any privacy-related questions, contact <strong>Gogeta1517@gmail.com</strong>.
+    </p>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Gogeta. All rights reserved.
+  </footer>
+
+</div>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
